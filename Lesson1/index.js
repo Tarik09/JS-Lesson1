@@ -66,7 +66,7 @@ console.log(s)
 let heightC = 10;
 let dC = 4;
 let p = 3.14;
-let v = p*dC*heightC;
+let v = p * dC * heightC;
 console.log(v);
 
 //
@@ -75,13 +75,18 @@ console.log(v);
 //
 let n = 3;
 let m = 4;
-let k = Math.sqrt(Math.pow(n,2) + Math.pow(m,2));
+let k = Math.sqrt(Math.pow(n, 2) + Math.pow(m, 2));
 console.log(k);
 
 //
 //
 // 8. Вывести в окно браузера при помощи метода alert() следующие данные: Ваше ФИО, возраст, хобби (каждой на новой строки спомощью \n).
 //
+let int = 'Нудьга Тарас Олександрович';
+let age = 29;
+let hobby = 'футбол';
+alert(int\n);
+
 // 9. Создать 4 переменные с использованием ключевого слова let с именами str1, str2, str3, concatenation.
 //     Переменной str1 присвоить фразу ‘Кто ‘, str2 – ‘ты ‘, str3 – ‘такой?’
 //   Локальной переменной concatenation присвоить результат конкатенации 3-х строк: str1, str2, str3.
