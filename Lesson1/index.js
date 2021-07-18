@@ -1,5 +1,6 @@
 // 1. Оголосіть змінні str, num, flag и txt зі значеннями «Привіт», 123, true, «true».
 // За допомогою typeof переконайтесь, що значення змінних належать типам: string, number и  boolean.
+
 let str = 'Hi'
 console.log(str);
 let num = 123;
@@ -22,6 +23,7 @@ console.log(typeof flag);
 //         87
 // Старайтесь використовувати різні оператори.
 //     Example: 88 = (16 / 2) * 11
+
 let a1 = 2;
 let a2 = 6;
 let a3 = 10;
@@ -41,6 +43,7 @@ console.log(a3 * a5 + a4);
 //     5 + '3',
 //     '5' - 3,
 //     75 + 'кг'
+
 let a6 = 5 % 3;
 console.log(a6);
 let a7 = 3 % 5;
@@ -55,6 +58,7 @@ console.log(a10);
 //
 // 4. Напишіть код, який вираховує площу прямокутника висотою 23см. (змінна height) та шириною 10см (змінна width).
 // Значееня площі зберігати в змінній s.
+
 let height = 23;
 let width = 10;
 let s = height * width;
@@ -63,6 +67,7 @@ console.log(s)
 //
 // 5.  Напиши код, который находит объем цилиндра высотой 10м (переменная heightC) и диаметром основания 4м (dC),
 //     результат поместите в переменную v.
+
 let heightC = 10;
 let dC = 4;
 let p = 3.14;
@@ -82,25 +87,29 @@ console.log(k);
 //
 // 8. Вывести в окно браузера при помощи метода alert() следующие данные: Ваше ФИО, возраст, хобби (каждой на новой строки спомощью \n).
 //
-//let int = 'Нудьга Тарас Олександрович\n';
-//let age = '29\n';
-//let hobby = 'футбол\n';
-//alert(int);
-//alert(age);
-//alert(hobby);
+let int = 'Нудьга Тарас Олександрович\n';
+let age = '29\n';
+let hobby = 'футбол\n';
+alert(int);
+alert(age);
+alert(hobby);
 
-//alert("Taras\n 29\n football\n");
+alert("Taras\n 29\n football\n");
 
 // 9. Создать 4 переменные с использованием ключевого слова let с именами str1, str2, str3, concatenation.
 //     Переменной str1 присвоить фразу ‘Кто ‘, str2 – ‘ты ‘, str3 – ‘такой?’
 //   Локальной переменной concatenation присвоить результат конкатенации 3-х строк: str1, str2, str3.
 //     Вывести в документ содержимое переменной concatenation спомощью document.write
+
+
 let str1 = 'Кто ';
 let str2 = 'Ты ';
 let str3 = 'Такой?';
 let concatenation = str1 + str2 + str3;
 document.write(concatenation);
-//
+
+
+
 // 10. Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
 // let str4 = "20";
 // let a = 5;
@@ -108,22 +117,22 @@ document.write(concatenation);
 // document.write(str4 - a + "<br/>"); 15 - я так думаю, що "-" це матиматичний символ і текст переводить в цифри
 // document.write(str4 * "2" + "<br/>"); 40
 // document.write(str4 / 2 + "<br/>"); 10 матиматичний символ який переводить текст
-//
-//
+
+
 // 13. С помощью окна ввода, вызываемого методом prompt, сделать сложение двух чисел, а вывод результата при помощи метода alert
-//let leter = prompt('10+15');
-//alert(leter);
+let leter = prompt('10+15');
+alert(leter);
 
 // 14. С помощью окна ввода, вызываемого методом prompt, пользователь последовательно выводит имя, фамилию и возраст, а вам не обходимо вывести строку такого вида
 // Доброго вечера Иван Иванов, мои поздравления что вам 32 , а вывод результата при помощи метода alert
 //
 
-//let name = prompt('Назовите свое имя?');
-//let surname = prompt('Какая ваша фамилия?');
-//let year = prompt('Сколько вам лет?');
-//alert('Доброго вечера ' + name + ' ' + surname + ', мои поздравления что вам ' + year);
+let name = prompt('Назовите свое имя?');
+let surname = prompt('Какая ваша фамилия?');
+let year = prompt('Сколько вам лет?');
+alert('Доброго вечера ' + name + ' ' + surname + ', мои поздравления что вам ' + year);
 
-//
+
 //
 // =====================
 // ======ДОП============
@@ -136,10 +145,28 @@ document.write(concatenation);
 //     За допомоги if else вивести іх в порядку зростання. (відсортувати по зростанню)
 
 
-//let number = prompt(10);
-//let number1 = prompt(20);
-//let number2 = prompt(30);
-
+// let number1 = prompt('Уведите первое число');
+// let number2 = prompt('Уведите второе число');
+// let number3 = prompt('Уведите третее число');
+// if ((number1 < number2) && (number1 < number3)){
+//     if (number2 < number3) {
+//         alert(number1 +' '+ number2 +' '+ number3);
+//     } else {
+//         alert(number1 +' '+ number3 +' '+ number2);
+//     }
+// } else if ((number2 < number3) && (number2 < number1)) {
+//     if (number1 < number3) {
+//         alert(number2 +' '+ number1 +' '+ number3);
+//     } else {
+//         alert(number2 +' '+ number3 +' '+ number1);
+//     }
+// } else {
+//     if (number2 < number1) {
+//         alert(number3 +' '+ number2 +' '+ number1);
+//     } else {
+//         alert(number3 +' '+ number1 +' '+ number2);
+//     }
+// }
 
 
 // 2.
@@ -150,6 +177,20 @@ document.write(concatenation);
 //     Если светофор красный - вывести "стой".
 //     Если светофор в аварийном режиме вывести "делай что хочешь"!
 //
+let road = prompt('Какого цвета светофор?');
+if (road == 'зеленый'){
+   alert("Можна идти!");
+}
+if (road == 'желтый'){
+    alert("Подожди идти!");
+}
+if ( road == 'красный'){
+   alert("Стой!!!");
+}
+if (road == 'аварийный режим'){
+    alert("Делай что хочешь!");
+}
+
 //     3
 // Все параметры получаем с клавиатуры!!!!(prompt , confirm)
 // Создать переменную isRoadClear которая характеризирует наличие на дороге машин.
@@ -161,3 +202,43 @@ document.write(concatenation);
 //     Если светофор красный и машин нет- вывести "стой все рано".
 //     Если светофор красный - и машины есть вывести "стой и жди".
 //     Если светофор в аварийном режиме вывести "делай что хочешь"!
+//
+//
+//
+let svetofor = prompt('Какого цвета светофор?');
+let isRoadClear = confirm('Машины есть на дороге?');
+if (isRoadClear) {
+    if (svetofor == 'зеленый'){
+        alert('Подожди пока нарушители проедут');
+    }
+    if (svetofor == 'желтый'){
+        alert('Жди!');
+    }
+    if (svetofor == 'красный'){
+        alert('стой и жди!');
+    }
+    if (svetofor == 'аварийный режим'){
+        alert('делай что хочешь');
+    }
+}
+
+else {
+    if (svetofor == 'зеленый') {
+        alert('иди');
+    }
+    if (svetofor == 'желтый'){
+        alert('все рано жди!');
+    }
+    if (svetofor == 'красный'){
+        alert('стой все рано');
+    }
+    if (svetofor == 'аварийный режим'){
+        alert('делай что хочешь');
+    }
+}
+
+
+
+
+
+
